@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@500&family=Protest+Strike&display=swap');
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+nav {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8ecf0;
+    padding: 15px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #708090;
+    margin: 0 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 40em;
+    cursor: pointer;
+}
+
+.logo2{
+    display: none;
+    cursor: pointer;
+}
+
+.sobre-mim {
+    margin-top: 100px;
+}
+
+
+.links {
+    display: flex;
+    align-items: center;
+    
+}
+
+.secao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 70em;
+    color: #708090;
+    font-size: 30px;
+}
+
+#btn-sobre {
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #333;
+    color: white;
+}
+
+#nome-logo {
+    font-size: 25px;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    
+    
+    
+}
+
+.menu li {
+    list-style-type: none;
+
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+     background-color: #e8ecf0;
+    padding: 15px;
+    
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links li {
+    margin-left: 10px;
+}
+
+.sobre-mim h1 {
+    font-size: 40px;
+     font-weight: bold;
+}
+.sobre-mim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #708090;
+    max-width: 600px;
+    font-weight: bolder;
+    font-size: 17px;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.projetos{
+    display: flex;
+    width: 60em;
+    color: #708090;
+    font-size: 20px;
+    margin-bottom: 250px;
+    
+}
+
+.projetos img {
+    display: flex;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 15px 15px 30px #333,
+             -15px -15px 30px #ffffff;
+}
+#meus-projetos {
+   
+    font-size: 80px;
+    
+    color: #708090;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8ecf0;
+    width: 100%;
+
+    
+}
+footer img {
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        width: 25px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu.active {
+        display: block;
+        
+    }
+
+   
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #333;
+        margin: 5px 0;
+    }
+    .logo {
+        
+        display: none;
+        
+    
+    }
+
+    .logo2 {
+        display: flex;
+        list-style-type: none;
+        align-items:center;
+        margin-left: 10em;
+
+    }
+
+    
+    .links {
+        display: block;
+        margin-left: 13em;
+        
+    }
+    
+    nav {
+        display: block;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .projetos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projetos img{
+        margin: 30px;
+    }
+
+    #meus-projetos{
+        text-align: center;
+    }
+
+    .sobre {
+        margin-top: 100px;
+        
+        
+    }
+
+    li {
+        margin: 10px;
+    }
+    
+
+    .secao {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 90%;
+        margin-top: 80em;
+    }
+
+    #img {
+        width: 450px;
+        height: 500px;
+    }
+}
