@@ -249,13 +249,24 @@ footer img {
         flex-direction: column;
     }
 
-    .projetos{
+    .projetos {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 10%;
+        margin-left: 225px;
+        align-items: center;
+    
+    }
+
+    section {
+        max-width: 500px;
     }
 
     .projetos img{
         margin: 30px;
+        
     }
 
     #meus-projetos{
@@ -264,6 +275,7 @@ footer img {
 
     .sobre {
         margin-top: 100px;
+
         
         
     }
@@ -275,10 +287,13 @@ footer img {
 
     .secao {
         display: flex;
+        align-items: center;
         justify-content: center;
         flex-direction: column;
-        max-width: 90%;
-        margin-top: 80em;
+        max-width: 80%;
+        margin-top: 90em;
+        margin-left: 50px;
+       text-align: center;
     }
 
     #img {
